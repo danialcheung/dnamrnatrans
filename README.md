@@ -1,2 +1,2 @@
-# dnamrnatrans
-a DNA and mRNA sequence translator/transcriber written in Python
+# DNA-mRNA Protein-Translator/Transcriber
+Takes a DNA or mRNA sequence and outputs the proteins.
