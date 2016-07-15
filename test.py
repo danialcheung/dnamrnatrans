@@ -75,8 +75,8 @@ def translate_seq(sequence):
             return proteins
         else:
             proteins.append(mRNA_protein_assorted.get(x))
-    print 'ERROR! No ending Sequence found!'
-    return ''
+    print 'WARNING! No ending Sequence found!'
+    return proteins
 
 
 # DNA -> mRNA -> Protein
