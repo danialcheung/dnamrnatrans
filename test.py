@@ -75,7 +75,8 @@ def translate_seq(sequence):
             return proteins
         else:
             proteins.append(mRNA_protein_assorted.get(x))
-    return proteins
+    print 'ERROR! No ending Sequence found!'
+    return ''
 
 
 # DNA -> mRNA -> Protein
@@ -106,7 +107,8 @@ def mRNA_to_Protein():
     seq = raw_input('Enter mRNA Sequence Here (in CAPS and no spaces please): ')
 
     mRNA_seq_string = remove_beg(seq)
-    proteins = translate_seq(mRNA_seq_string)
+    mRNA_seq = iterable_to_list(mRNA_seq_string)
+    proteins = translate_seq(mRNA_seq)
 
     print ''
     print 'Proteins are: ' + '-'.join(proteins)
