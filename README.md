@@ -3,7 +3,7 @@ Takes a DNA or mRNA sequence and outputs the proteins. Will only translate up fr
 
 ## Operations: ##
 
-### 1. DNA->mRNA->Proteins ###
+### DNA->mRNA->Proteins ###
 This operation takes in a DNA sequence that is in all capital letters and has no spaces. Returns the equivalent mRNA sequence and the proteins. This will also return the proteins up to the last grouping if no ending sequence is found.
 
 #### Example 1 ####
@@ -26,7 +26,7 @@ mRNA Sequence is: UGGUUGGAGGUAUGGUAGUAGUAGUGUGAUAGGAAUUU
 Proteins are: Met-Val-Val-Val-Val
 ```
 
-### 1. mRNA->Proteins ###
+### mRNA->Proteins ###
 Takes an mRNA sequence that is in all capital letters and has no spaces. Only returns the proteins. 
 
 #### Example 1 ####
